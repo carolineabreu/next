@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className={styles.navMenu}>
         <Link href="/">Home</Link>
         <Link href="/products">Shop</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/about">About Us</Link>
       </div>
     </div>
   )

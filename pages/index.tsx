@@ -1,10 +1,10 @@
 import CategoryCards from "@/components/CategoryCards"
-import PopularCards from "@/components/PopularCards"
 import { Button } from "@chakra-ui/react"
 import Image from "next/image"
 import Link from "next/link"
 import heroImage from "../public/anders-jilden-O85h02qZ24w-unsplash.jpg"
 import styles from "./home.module.css"
+import Products from "./products"
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <div className={styles.popular}>
         <h2>Most Popular</h2>
-        <PopularCards />
+        <Products />
       </div>
     </div>
   )
