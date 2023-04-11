@@ -1,0 +1,35 @@
+.container {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px;
+  gap: 40px;
+}
+
+.container p {
+  background-color: #FFF8F7;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image {
+  height: 296px;
+  width: 296px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.name {
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.price {
+  padding: 10px 0 12px 0;
+  text-transform: capitalize;
+}

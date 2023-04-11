@@ -1,0 +1,22 @@
+.nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 40px 80px;
+  color: #9A405B;
+}
+
+.navMenu {
+  display: flex;
+  gap: 24px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.nav h1 {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 40px;
+  line-height: 50px;
+}
