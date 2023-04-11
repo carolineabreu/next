@@ -1,20 +1,14 @@
 .container {
   font-family: 'Lato', sans-serif;
   display: flex;
-  flex-direction: column;
   margin: 0 80px;
-  gap: 40px;
+  /* gap: 40px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .container p {
   background-color: #FFF8F7;
-}
-
-.rows {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .image {
@@ -32,4 +26,10 @@
 .price {
   padding: 10px 0 12px 0;
   text-transform: capitalize;
+}
+
+@media screen and (width > 1440px) {
+  .container {
+    gap: 80px;
+  }
 }

@@ -3,7 +3,7 @@ import PopularCards from "@/components/PopularCards"
 import { Button } from "@chakra-ui/react"
 import Image from "next/image"
 import Link from "next/link"
-import heroImage from "../public/assets/anders-jilden-O85h02qZ24w-unsplash.jpg"
+import heroImage from "../public/anders-jilden-O85h02qZ24w-unsplash.jpg"
 import styles from "./home.module.css"
 
 export default function Home() {
